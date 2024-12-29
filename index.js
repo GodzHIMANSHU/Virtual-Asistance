@@ -59,10 +59,6 @@ const handlemsg=(msg)=>{
    {
     speakfunc("I am virtual Asistance, Developed by Himanshu");
    }
-   else if(msg.includes("new year gift") || msg.includes("gift"))
-   {
-    speakfunc("Saurabh ki gaad !");
-   }
    else if(msg.includes("open google")||msg.includes("google"))
    {
      speakfunc("Opening... google");
